@@ -924,8 +924,6 @@ class LibertyTemplate extends BaseTemplate {
 					}
 				}
 
-				$text="";
-
 				// Icon
 				$icon = isset( $data['icon'] ) ? htmlentities( $data['icon'], ENT_QUOTES, 'UTF-8' ) : null;
 
