@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Vehicle-Crash_Detected']
+
+roboflow:
+  workspace: object-detection-3iugc
+  project: vehicle-crash-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-3iugc/vehicle-crash-dataset/dataset/1
